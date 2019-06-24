@@ -11,6 +11,11 @@
  - git同步ushio-core.git到home
  - `git config --global user.name ushio`
  - `git config --global user.email i@iotcat.me`
+ - 配置github的ssh[a1](https://www.xuanfengge.com/using-ssh-key-link-github-photo-tour.html), [a2](https://ddnode.com/2015/04/14/git-modify-remote-responsity-url.html)
+ 
+## 配置
+ - `sh /home/ini/sh/ini.sh`
+ 
  
 ## 
  
