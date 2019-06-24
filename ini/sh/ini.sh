@@ -39,7 +39,7 @@ yum install epel-release -y
 yum install https://centos7.iuscommunity.org/ius-release.rpm -y
 yum install python36u -y
 yum install python36u-devel -y
-ln -s /bin/python3.6 /bin/python
+ln -s /bin/python3.6 /bin/python3
 yum install python36u-pip -y
 ln -s /bin/pip3.6 /bin/pip3
 yum install -y python-pip
