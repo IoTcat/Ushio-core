@@ -1,5 +1,10 @@
 #!/bin/bash
 yum update -y
+yum install -y wget
+
+# git
+git config --global user.name iotcat
+git config --global user.email i@iotcat.me
 
 # nginx
 yum install -y nginx
@@ -46,5 +51,13 @@ systemctl enable docker
 systemctl start docker
 pip install --upgrade backports.ssl_match_hostname
 pip install docker-compose
+
+# bbr
+wget -N --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
+chmod +x bbr.sh
+bash bbr.sh
+rm -rf bbr.sh
+
+
 
 
