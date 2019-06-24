@@ -44,6 +44,7 @@ yum install python36u-pip -y
 ln -s /bin/pip3.6 /bin/pip3
 yum install -y python-pip
 pip install --upgrade pip
+pip3 install --upgrade pip
 
 # docker
 yum -y install docker
