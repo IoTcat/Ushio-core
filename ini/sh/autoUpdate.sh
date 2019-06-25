@@ -2,6 +2,7 @@
 #
 # Update
 sh /home/ini/sh/update/updateConf.sh
+sh /home/ini/sh/update/updateCron.sh
 #
 # git
 cd /home
