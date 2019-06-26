@@ -6,3 +6,4 @@ ls
 crond -l
 crontab -u root -l
 su
+exit
