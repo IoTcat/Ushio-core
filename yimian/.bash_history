@@ -40,3 +40,5 @@ cd tomato/
 ls
 cd..
 exit
+su
+exit
