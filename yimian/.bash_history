@@ -42,3 +42,5 @@ cd..
 exit
 su
 exit
+su
+exit
