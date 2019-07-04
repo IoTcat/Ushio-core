@@ -45,3 +45,5 @@ exit
 su
 exit
 su
+ls
+su
