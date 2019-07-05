@@ -47,3 +47,12 @@ exit
 su
 ls
 su
+ls
+su
+ls
+cd ..
+ls
+cd ushio/
+ls
+su
+exit
