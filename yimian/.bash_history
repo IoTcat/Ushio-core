@@ -56,3 +56,6 @@ cd ushio/
 ls
 su
 exit
+su
+cd ..
+su
