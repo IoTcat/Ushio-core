@@ -59,3 +59,5 @@ exit
 su
 cd ..
 su
+exit
+su

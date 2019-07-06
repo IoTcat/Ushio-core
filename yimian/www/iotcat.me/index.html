@@ -14,7 +14,12 @@
     <link rel="stylesheet" href="https://cdn.yimian.xyz/iotcat-homepage/main.css"></head>
     <link rel="stylesheet" type="text/css" href="https://cdn.yimian.xyz/shaky/shaky.css">
     <script src="https://cdn.yimian.xyz/ushio-js/ushio-head.min.js"></script>
-
+    <style type="text/css">
+      #ap-f{
+        position: absolute;
+        z-index: 9999;
+      }
+    </style>
   <body class="panel-cover" id="bg" style="background-image:url(https://api.yimian.xyz/img/?size=1920x1080&id=828)">
     <script type="text/javascript">function change_bg() {
         document.getElementById("bg").style = "background-image: url('https://api.yimian.xyz/img/?size=1920x1080')"
@@ -36,9 +41,9 @@
               <nav class="cover-navigation cover-navigation--primary">
                 <ul class="navigation">
                   <li class="navigation__item">
-                    <a id="ushio-blog" href="https://www.eee.dog/" target="_blank" title="访问博客">博客</a></li>
+                    <a id="ushio-blog" href="https://www.eee.dog/" title="访问博客">博客</a></li>
                   <li class="navigation__item">
-                    <a id="ushio-aboutme" href="https://www.eee.dog/" target="_blank" title="About">关于</a></li>
+                    <a id="ushio-aboutme" href="https://www.eee.dog/" title="About">关于</a></li>
                 </ul>
               </nav>
             </div>
@@ -61,7 +66,7 @@
                     </a>
                   </li>
                   <li class="navigation__item">
-                    <a id="ushio-feed" href="https://www.eee.dog/feed/" rel="author" title="RSS" target="_blank">
+                    <a href="https://www.eee.dog/feed/" rel="author" title="RSS" target="_blank">
                       <i class="social fa fa-rss"></i>
                     </a>
                   </li>
