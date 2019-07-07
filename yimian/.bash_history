@@ -62,3 +62,9 @@ su
 exit
 su
 exit
+su
+ls
+cd www/iotcat.me/
+ls
+vim index.html 
+exit
