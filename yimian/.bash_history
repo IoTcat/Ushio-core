@@ -70,3 +70,5 @@ vim index.html
 exit
 ssh root@14.192.48.131
 exit
+ls
+su
